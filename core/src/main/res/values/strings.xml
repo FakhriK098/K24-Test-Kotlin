@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title_members">Members</string>
+    <string name="title_admin">Admin</string>
+    <string name="title_account">Akun</string>
+    <string name="title_member_name">Nama member</string>
+    <string name="title_name">Nama</string>
+    <string name="title_date_of_birth">Tanggal Lahir</string>
+    <string name="title_address">Alamat</string>
+    <string name="title_gender">Jenis Kelamin</string>
+    <string name="title_username">Username</string>
+    <string name="title_add_member">Tambah Member</string>
+    <string name="title_password">Password</string>
+    <string name="title_male">Laki-laki</string>
+    <string name="title_female">Perempuan</string>
+    <string name="title_change_password">Ubah Password</string>
+    <string name="title_old_password">Password Lama</string>
+    <string name="title_new_password">Password Baru</string>
+    <string name="title_confirmation">Konfirmasi</string>
+    <string name="title_wording_logout">Apakah anda yakin ingin keluar?</string>
+    <string name="title_wording_change_password">Apakah anda yakin ingin mengubah?</string>
+    <string name="title_wording_register_member">Apakah data sudah sesuai?</string>
+
+    <string name="label_login">Login</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_register">Daftar</string>
+    <string name="label_change_password">Ubah Password</string>
+    <string name="label_cancel">Batal</string>
+    <string name="label_yes">Yes</string>
+</resources>

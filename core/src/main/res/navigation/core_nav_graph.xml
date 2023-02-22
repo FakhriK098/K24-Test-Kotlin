@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/core_nav_graph"
+    app:startDestination="@id/memberListFragment">
+
+    <fragment
+        android:id="@+id/memberListFragment"
+        android:name="id.fakhri_khairi.core.presentation.list.MemberListFragment"
+        android:label="MemberListFragment"
+        tools:layout="@layout/fragment_member_list">
+        <action
+            android:id="@+id/action_memberListFragment_to_memberDetailFragment"
+            app:destination="@id/memberDetailFragment" />
+        <action
+            android:id="@+id/action_memberListFragment_to_memberAddFragment"
+            app:destination="@id/memberAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/memberDetailFragment"
+        android:name="id.fakhri_khairi.core.presentation.detail.MemberDetailFragment"
+        android:label="MemberDetailFragment"
+        tools:layout="@layout/fragment_member_detail">
+        <action
+            android:id="@+id/action_memberDetailFragment_to_changePasswordFragment"
+            app:destination="@id/changePasswordFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/memberAddFragment"
+        android:name="id.fakhri_khairi.core.presentation.add.MemberAddFragment"
+        android:label="MemberAddFragment"
+        tools:layout="@layout/fragment_member_add"/>
+    <fragment
+        android:id="@+id/changePasswordFragment"
+        android:name="id.fakhri_khairi.core.presentation.change_password.ChangePasswordFragment"
+        android:label="ChangePasswordFragment"
+        tools:layout="@layout/fragment_change_password"/>
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="id.fakhri_khairi.core.presentation.auth.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_loginFragment_to_memberListFragment"
+            app:destination="@id/memberListFragment" />
+        <action
+            android:id="@+id/action_loginFragment_to_memberDetailFragment"
+            app:destination="@id/memberDetailFragment" />
+    </fragment>
+
+</navigation>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="10dp"
+    android:backgroundTint="@color/blue_CFE6DE">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tvTitleName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_name"
+            style="@style/TextViewTitle.18"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvValueName"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <TextView
+            android:id="@+id/tvValueName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            style="@style/TextViewValue"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTitleName"
+            app:layout_constraintBottom_toBottomOf="@id/tvTitleName"
+            app:layout_constraintStart_toEndOf="@id/tvTitleName"/>
+
+        <TextView
+            android:id="@+id/tvTitleDateOfBirth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_date_of_birth"
+            style="@style/TextViewTitle.18"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvValueDateOfBirth"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleName"/>
+
+        <TextView
+            android:id="@+id/tvValueDateOfBirth"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            style="@style/TextViewValue"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTitleDateOfBirth"
+            app:layout_constraintBottom_toBottomOf="@id/tvTitleDateOfBirth"
+            app:layout_constraintStart_toEndOf="@id/tvTitleDateOfBirth"/>
+
+        <TextView
+            android:id="@+id/tvTitleAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_address"
+            style="@style/TextViewTitle.18"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvValueAddress"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleDateOfBirth"/>
+
+        <TextView
+            android:id="@+id/tvValueAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            style="@style/TextViewValue"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTitleAddress"
+            app:layout_constraintBottom_toBottomOf="@id/tvTitleAddress"
+            app:layout_constraintStart_toEndOf="@id/tvTitleAddress"/>
+
+        <TextView
+            android:id="@+id/tvTitleGenre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_gender"
+            style="@style/TextViewTitle.18"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvValueGenre"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleAddress"/>
+
+        <TextView
+            android:id="@+id/tvValueGenre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            style="@style/TextViewValue"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTitleGenre"
+            app:layout_constraintBottom_toBottomOf="@id/tvTitleGenre"
+            app:layout_constraintStart_toEndOf="@id/tvTitleGenre"/>
+
+        <TextView
+            android:id="@+id/tvTitleUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/title_username"
+            style="@style/TextViewTitle.18"
+            android:layout_marginEnd="4dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/tvValueUsername"
+            app:layout_constraintTop_toBottomOf="@id/tvTitleGenre"/>
+
+        <TextView
+            android:id="@+id/tvValueUsername"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            style="@style/TextViewValue"
+            android:gravity="end"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@id/tvTitleUsername"
+            app:layout_constraintBottom_toBottomOf="@id/tvTitleUsername"
+            app:layout_constraintStart_toEndOf="@id/tvTitleUsername"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
