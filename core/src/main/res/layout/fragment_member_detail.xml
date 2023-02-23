@@ -18,10 +18,9 @@
             android:id="@+id/memberDetailToolbar"
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
-            app:title="@string/title_admin"
+            app:title="@string/title_members"
             app:menu="@menu/menu_member_detail"
-            app:titleTextColor="@color/white"
-            app:navigationIcon="@drawable/ic_chevron_left_24"/>
+            app:titleTextColor="@color/white"/>
 
     </com.google.android.material.appbar.AppBarLayout>
 

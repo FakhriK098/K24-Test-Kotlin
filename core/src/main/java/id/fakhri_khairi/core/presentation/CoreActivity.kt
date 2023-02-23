@@ -29,7 +29,7 @@ class CoreActivity : AppCompatActivity() {
 
         val memberId = sharedPreferences.getString(Constants.MEMBER_ID,null)
 
-        if (memberId.isNullOrEmpty()) {
+        if (memberId == null) {
             navGraph.startDestination = R.id.loginFragment
             navController.graph = navGraph
             return

@@ -20,6 +20,7 @@
     <string name="title_wording_logout">Apakah anda yakin ingin keluar?</string>
     <string name="title_wording_change_password">Apakah anda yakin ingin mengubah?</string>
     <string name="title_wording_register_member">Apakah data sudah sesuai?</string>
+    <string name="title_wording_wrong_username_password">Username atau Password anda salah</string>
 
     <string name="label_login">Login</string>
     <string name="label_logout">Logout</string>

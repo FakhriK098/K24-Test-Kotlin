@@ -16,6 +16,11 @@
         <action
             android:id="@+id/action_memberListFragment_to_memberAddFragment"
             app:destination="@id/memberAddFragment" />
+        <action
+            android:id="@+id/action_memberListFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@+id/loginFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/memberDetailFragment"
@@ -25,17 +30,22 @@
         <action
             android:id="@+id/action_memberDetailFragment_to_changePasswordFragment"
             app:destination="@id/changePasswordFragment" />
+        <action
+            android:id="@+id/action_memberDetailFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:popUpTo="@+id/loginFragment"
+            app:popUpToInclusive="true" />
     </fragment>
     <fragment
         android:id="@+id/memberAddFragment"
         android:name="id.fakhri_khairi.core.presentation.add.MemberAddFragment"
         android:label="MemberAddFragment"
-        tools:layout="@layout/fragment_member_add"/>
+        tools:layout="@layout/fragment_member_add" />
     <fragment
         android:id="@+id/changePasswordFragment"
         android:name="id.fakhri_khairi.core.presentation.change_password.ChangePasswordFragment"
         android:label="ChangePasswordFragment"
-        tools:layout="@layout/fragment_change_password"/>
+        tools:layout="@layout/fragment_change_password" />
     <fragment
         android:id="@+id/loginFragment"
         android:name="id.fakhri_khairi.core.presentation.auth.LoginFragment"

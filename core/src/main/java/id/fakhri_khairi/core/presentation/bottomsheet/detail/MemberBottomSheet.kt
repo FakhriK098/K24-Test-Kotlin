@@ -27,7 +27,7 @@ class MemberBottomSheet(
             tvValueName.text = member.name
             tvValueDateOfBirth.text = member.dateOfBirth
             tvValueAddress.text = member.address
-            tvValueGenre.text = member.genre
+            tvValueGenre.text = member.gender
             tvValueUsername.text = member.username
         }
     }

@@ -4,7 +4,7 @@ object Android {
     // App
     const val VERSION_CODE = 1
     const val VERSION_NAME = "1.0.0"
-    const val APPLICATION_ID = "id.fakhri_khairi.skeleton"
+    const val APPLICATION_ID = "id.fakhri_khairi.members"
 
     // Android
     const val SDK = 31
